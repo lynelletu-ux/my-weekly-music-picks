@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎵 每周歌曲推荐榜｜2026.09.05｜第03期</title>
+<style>
+:root{
+  --bg:#0b0a0f;--bg2:#120e15;--panel:#17151c;--text:#f7f5f8;--muted:#aaa4b2;
+  --line:rgba(255,255,255,.10);--pink:#ff4f68;--pink2:#ff6b7d;--purple:#8b5cf6;
+  --gold:#f2cf72;--gold-bg:rgba(242,207,114,.12)
+}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{
+  margin:0;color:var(--text);
+  background:
+    radial-gradient(circle at 18% -10%,rgba(139,92,246,.14),transparent 32%),
+    radial-gradient(circle at 90% 5%,rgba(255,79,104,.10),transparent 26%),
+    linear-gradient(180deg,var(--bg2),var(--bg) 34%,#09080c);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+  line-height:1.76;-webkit-font-smoothing:antialiased
+}
+main{width:min(940px,calc(100% - 28px));margin:24px auto 70px}
+.hero{position:relative;overflow:hidden;padding:40px 36px 34px;border:1px solid var(--line);border-radius:26px;background:radial-gradient(circle at 88% 12%,rgba(255,79,104,.12),transparent 28%),radial-gradient(circle at 10% 100%,rgba(139,92,246,.12),transparent 30%),linear-gradient(145deg,#211720,#171219 72%);box-shadow:0 24px 70px rgba(0,0,0,.36);margin-bottom:26px}
+.kicker{margin:0 0 12px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#c3bccb;font-weight:800}
+.hero h1{margin:0;font-size:31px;line-height:1.25;letter-spacing:-.02em}
+.hero .lead{margin:14px 0 0;max-width:780px;color:#d4ced8;font-size:16px}
+.notice{margin:16px 0 0;padding:13px 15px;border-radius:14px;background:rgba(139,92,246,.08);border:1px solid rgba(139,92,246,.17);color:#cfc6da;font-size:13.5px}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.chip{border:1px solid rgba(255,255,255,.09);background:rgba(255,255,255,.04);color:#ded9e2;padding:8px 13px;border-radius:999px;font-size:13px;font-weight:700}
+.track{position:relative;overflow:hidden;margin:22px 0;padding:27px 28px 28px;border:1px solid var(--line);border-radius:23px;background:linear-gradient(180deg,rgba(255,255,255,.015),transparent 24%),var(--panel);box-shadow:0 18px 50px rgba(0,0,0,.24)}
+.accent-line{position:absolute;left:0;top:0;right:0;height:2px;background:linear-gradient(90deg,var(--purple),rgba(255,79,104,.9),transparent 78%);opacity:.9}
+.track-topline{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-bottom:16px}
+.rank{min-width:54px;height:54px;padding:0 15px;display:inline-flex;align-items:center;justify-content:center;border-radius:16px;border:1px solid rgba(255,255,255,.12);background:#0e0d12;color:#fff;font-size:22px;font-weight:900}
+.score{display:inline-flex;align-items:center;min-height:42px;padding:0 15px;border-radius:999px;background:var(--gold-bg);border:1px solid rgba(242,207,114,.12);color:var(--gold);font-weight:850;font-size:14px}
+.version-tag{display:inline-flex;align-items:center;min-height:34px;padding:0 11px;border-radius:999px;background:rgba(139,92,246,.12);border:1px solid rgba(139,92,246,.20);color:#c8b5ff;font-size:11px;font-weight:900;letter-spacing:.12em}
+h2{margin:0 0 8px;font-size:29px;line-height:1.32;letter-spacing:-.025em;overflow-wrap:anywhere}
+.meta{margin:0 0 19px;color:var(--muted);font-size:14px}
+.am-button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 22px;border-radius:15px;background:linear-gradient(180deg,var(--pink2),var(--pink));color:#fff;text-decoration:none;font-weight:900;letter-spacing:.01em;box-shadow:0 10px 24px rgba(255,79,104,.16);margin-bottom:21px}
+.section-label{font-size:11px;letter-spacing:.16em;font-weight:900;color:#9e96aa;margin-bottom:6px}
+.intro p,.reason p{margin:0}.intro{color:#d8d3dc}
+.reason{margin-top:17px;padding:17px 18px 17px 19px;border-radius:15px;background:#211b25;border-left:3px solid var(--purple);color:#e3dee7}
+.anchors{display:flex;gap:10px;margin-top:15px;padding-top:14px;border-top:1px solid rgba(255,255,255,.07);color:#beb7c5;font-size:14px}
+.anchors strong{flex:0 0 auto;color:#f2edf4}
+.footer{margin:34px 0 0;text-align:center;color:#7f7887;font-size:12px;letter-spacing:.05em}
+@media(max-width:720px){
+  main{width:calc(100% - 20px);margin-top:10px;margin-bottom:44px}
+  .hero{padding:25px 20px 23px;border-radius:21px}.hero h1{font-size:27px}.hero .lead{font-size:15.5px}
+  .track{padding:20px 18px 21px;border-radius:20px;margin:17px 0}.track-topline{gap:8px;margin-bottom:14px}
+  .rank{min-width:52px;height:52px;border-radius:15px;font-size:21px}.score{font-size:13.5px}
+  h2{font-size:25px;line-height:1.38}.meta{font-size:13.5px}
+  .am-button{width:100%;min-height:54px;padding:0 16px;font-size:16px}
+  .intro,.reason{font-size:16px}.anchors{display:block;font-size:14px}.anchors strong{display:block;margin-bottom:3px}
+}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+<p class="kicker">WEEKLY MUSIC PICKS · PERSONAL EDITION</p>
+<h1>🎵 每周歌曲推荐榜｜2026.09.05｜第03期</h1>
+<p class="lead">这一期继续沿着“第一耳就能抓住你”的方向筛选：旋律必须尽快出现，人声要有辨识度，情绪可以慢慢累积，但不能靠漫长前奏拖到最后才兑现。</p>
+<div class="notice">第03期原先通过 ChatGPT 临时附件推送，但附件已过期且原文件本体无法可靠恢复。本页按原第03期编号重新成刊并持久归档，不新增期号；后续正式周榜统一改走 GitHub Pages 稳定入口。</div>
+<div class="chips"><span class="chip">6 首正式推荐</span><span class="chip">最低推荐指数 9.2</span><span class="chip">Apple Music CN 已核验</span><span class="chip">持久归档补发</span></div>
+</header>
+
+<section class="track">
+<div class="accent-line"></div>
+<div class="track-topline"><span class="rank">01</span><span class="score">★ 推荐指数 9.7/10</span></div>
+<h2>01｜Glitter — Patrick Droney</h2>
+<p class="meta">2020 · Pop / Singer-Songwriter</p>
+<a class="am-button" href="https://music.apple.com/cn/album/glitter/1532505437?i=1532505880" target="_blank" rel="noopener noreferrer">在 Apple Music 打开</a>
+<div class="intro"><div class="section-label">INTRO</div><p>Patrick Droney 的优势是旋律和人声都很“正”：不会故意做得晦涩，吉他、鼓和人声很快就把歌推起来，但情绪又没有廉价地一次性放完。</p></div>
+<div class="reason"><div class="section-label">WHY THIS ONE</div><p>这首最符合你现在越来越明确的“第一耳命中”标准。前段很快建立旋律，人声有一点沙哑和颗粒，副歌不是突然炸开，而是一步一步往上抬。它和 Dermot Kennedy《Outnumbered》、Teddy Swims《Lose Control》共享的是那种“人声一出来就有抓力”的机制，但整体更温暖、更明亮，不是在复制上一期。</p></div>
+<div class="anchors"><strong>相似锚点</strong><span>《Outnumbered》的粗粝温度 + Ed Sheeran 式旋律完整度 + 轻摇滚推进</span></div>
+</section>
+
+<section class="track">
+<div class="accent-line"></div>
+<div class="track-topline"><span class="rank">02</span><span class="score">★ 推荐指数 9.6/10</span><span class="version-tag">ACOUSTIC</span></div>
+<h2>02｜No Right To Love You (Acoustic) — Rhys Lewis</h2>
+<p class="meta">2018 · Pop · Acoustic</p>
+<a class="am-button" href="https://music.apple.com/cn/album/no-right-to-love-you-acoustic/1516940581?i=1516940977" target="_blank" rel="noopener noreferrer">在 Apple Music 打开</a>
+<div class="intro"><div class="section-label">INTRO</div><p>Rhys Lewis 是很典型的情绪型男声唱作歌手。这一版不是靠制作堆气氛，核心就是人声、吉他和关系叙事，所以情绪暴露得很直接。</p></div>
+<div class="reason"><div class="section-label">WHY THIS ONE</div><p>它很适合你喜欢 Adele《All I Ask》《Someone Like You》那一类“关系已经走到尽头，但情绪还没有跟上”的歌。Acoustic 版一开始就把人声放在最前面，没有很长的铺垫；真正的优势是克制——不是哭喊，而是把舍不得和无能为力一点点唱出来。这个版本的独立价值也足够高，不是为了推荐特别版而推荐特别版。</p></div>
+<div class="anchors"><strong>相似锚点</strong><span>Adele 式关系余震 + 《She Used To Be Mine》的脆弱感 + Acoustic 近距离人声</span></div>
+</section>
+
+<section class="track">
+<div class="accent-line"></div>
+<div class="track-topline"><span class="rank">03</span><span class="score">★ 推荐指数 9.5/10</span></div>
+<h2>03｜Wings — Birdy</h2>
+<p class="meta">2013 · Pop / Adult Alternative</p>
+<a class="am-button" href="https://music.apple.com/cn/album/wings/673277385?i=673277684" target="_blank" rel="noopener noreferrer">在 Apple Music 打开</a>
+<div class="intro"><div class="section-label">INTRO</div><p>Birdy 的声音很轻，但不是没有力量；她的歌常常把很私人、很安静的情绪，最后推到一个非常有空间感的副歌里。</p></div>
+<div class="reason"><div class="section-label">WHY THIS ONE</div><p>这首的优势是旋律辨识度来得很早，而且副歌有很漂亮的抬升。你喜欢 Aimer《カタオモイ》说明“高辨识度女声 + 克制情绪”能命中，而《Wings》在这个基础上又多了一层更大的释放感。它既可以落到夜晚听，也不会像一些纯氛围歌那样需要等很久才进入核心。</p></div>
+<div class="anchors"><strong>相似锚点</strong><span>Aimer 的细腻女声 + Taylor Swift 氛围线 + 更开阔的副歌释放</span></div>
+</section>
+
+<section class="track">
+<div class="accent-line"></div>
+<div class="track-topline"><span class="rank">04</span><span class="score">★ 推荐指数 9.4/10</span></div>
+<h2>04｜I Found — Amber Run</h2>
+<p class="meta">2014 · Alternative / Indie Rock</p>
+<a class="am-button" href="https://music.apple.com/cn/album/i-found/968213458?i=968213459" target="_blank" rel="noopener noreferrer">在 Apple Music 打开</a>
+<div class="intro"><div class="section-label">INTRO</div><p>Amber Run 很擅长把独立摇滚写得足够旋律化。这首虽然气氛偏暗，却并不靠复杂编曲取胜，核心仍然是反复出现、越来越重的旋律线。</p></div>
+<div class="reason"><div class="section-label">WHY THIS ONE</div><p>如果你喜欢《The Night We Met》那种“夜色、回忆、失去”的感觉，这首很值得试。它前面虽然不是大副歌型开场，但声音和和声很快就把情绪定住，所以慢热是有回报的。后半段随着层次一点点堆起来，会从“安静难受”变成一种近乎压住胸口的情绪释放，属于你能接受的那一类慢燃。</p></div>
+<div class="anchors"><strong>相似锚点</strong><span>《The Night We Met》的遗憾感 + Coldplay 早期式空间感 + Indie Rock 情绪累积</span></div>
+</section>
+
+<section class="track">
+<div class="accent-line"></div>
+<div class="track-topline"><span class="rank">05</span><span class="score">★ 推荐指数 9.3/10</span></div>
+<h2>05｜Dancing With Your Ghost — Sasha Alex Sloan</h2>
+<p class="meta">2019 · Pop / Singer-Songwriter</p>
+<a class="am-button" href="https://music.apple.com/cn/album/dancing-with-your-ghost/1469306710?i=1469306713" target="_blank" rel="noopener noreferrer">在 Apple Music 打开</a>
+<div class="intro"><div class="section-label">INTRO</div><p>Sasha Alex Sloan 的强项不是大嗓，而是用非常简单的旋律和近距离的人声，把“已经结束但还走不出来”的状态写得很具体。</p></div>
+<div class="reason"><div class="section-label">WHY THIS ONE</div><p>这首属于“旋律很快能记住，但情绪是后知后觉”的类型。它没有 NIKI《Oceans & Engines》那么长的进入过程，开头就把核心旋律和人声交出来；副歌也不追求声量，而是靠重复把失落一点点压深。它和你喜欢的 Taylor Swift 关系叙事线很接近，但写法更直接、更轻。</p></div>
+<div class="anchors"><strong>相似锚点</strong><span>Taylor Swift 的关系叙事 + 《The Night We Met》的余韵 + 更快进入核心</span></div>
+</section>
+
+<section class="track">
+<div class="accent-line"></div>
+<div class="track-topline"><span class="rank">06</span><span class="score">★ 推荐指数 9.2/10</span></div>
+<h2>06｜Carry You (feat. Fleurie) — Ruelle</h2>
+<p class="meta">2018 · Alternative / Cinematic Pop</p>
+<a class="am-button" href="https://music.apple.com/cn/album/carry-you-feat-fleurie/1614862465?i=1614862469" target="_blank" rel="noopener noreferrer">在 Apple Music 打开</a>
+<div class="intro"><div class="section-label">INTRO</div><p>Ruelle 和 Fleurie 都擅长电影化、空间感很强的流行作品。这首不是传统大流行结构，但女声叠起来以后很有“镜头拉远”的感觉。</p></div>
+<div class="reason"><div class="section-label">WHY THIS ONE</div><p>这一首主要命中你对 OST、电影感和女声氛围的接受度。旋律从前段就足够明确，不会只是背景音乐；真正漂亮的是后面的层次扩张，两个女声把情绪越推越宽。它和 Aimer 的克制不是同一种质感，但同样有“声音本身就是情绪”的特点，适合放在夜晚、通勤或需要一点空间感的时候听。</p></div>
+<div class="anchors"><strong>相似锚点</strong><span>OST 电影感 + Aimer 的人声辨识度支线 + 夜晚氛围</span></div>
+</section>
+
+<footer class="footer">Curated for your weekly listening · Apple Music CN verified</footer>
+</main>
+</body>
+</html>
